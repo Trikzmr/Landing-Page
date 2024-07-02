@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #111;
+    font-family: "futura-pt", sans-serif;
+    cursor: default;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.strt{
+    height: 100vh;
+    background: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 50px;
+}
+.landing{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.landing-text{
+    font-size: 85px;
+}
+.landing-text b{
+    color: #4ff272;
+}
+.span1{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3s;   
+}
+.span2{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.2s;   
+}
+.span3{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.7s;   
+}
+.span4{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.9s;   
+}
+.span5{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4s;   
+}
+.span6{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.1s;   
+}
+.span7{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.2s;   
+}
+.span8{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.28s;   
+}
+.span9{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.5s;   
+}
+.span10{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.62s;   
+}
+.span11{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.97s;   
+}
+.span12{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.07s;   
+}
+.span13{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.14s;   
+}
+.span14{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.21s;   
+}
+@keyframes ani{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.container-fluid a{
+    color: #fff;
+}
+.container-fluid a:hover{
+    color: #4ff272;
+}
+.container-fluid .acc, .container-fluid span{
+    color: #4ff272;
+}
+.navbar-toggler-icon, .navbar-toggler{
+    background-color: #4ff272;
+}
